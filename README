@@ -16,7 +16,3 @@ Widgets
   * cxWidgetFormPropelJQuerySelectMany : Original Propel support
   * cxWidgetFormDoctrineJQuerySelectMany : BeTa Doctrine Implementation
 
-Validators
--------
-
-  * sfValidatorColorHex : validates a color (#FFF, #FFFFFF) in hex format

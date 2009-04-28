@@ -1,6 +1,6 @@
 <?php
 /**
- * cxWidgetFormSelectTags
+ * cxWidgetFormPropelJQuerySelectMany
  *
  * @package    cxFormExtraPlugin
  * @subpackage widget
