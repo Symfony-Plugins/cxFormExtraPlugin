@@ -1,0 +1,22 @@
+cxFormExtraPlugin
+=================
+
+The `cxFormExtraPlugin` includes some missing widget features.
+
+
+Documentation
+-------------
+
+todo O_o
+
+Widgets
+----------
+
+  * cxWidgetFormJQuerySelectMany : a medley of a jquery autocompleter and a multiple option select tag. Use it to select a few elements from a big list.
+  * cxWidgetFormPropelJQuerySelectMany : Original Propel support
+  * cxWidgetFormDoctrineJQuerySelectMany : BeTa Doctrine Implementation
+
+Validators
+-------
+
+  * sfValidatorColorHex : validates a color (#FFF, #FFFFFF) in hex format
