@@ -45,8 +45,9 @@ CxOpenSelect = function(className, srcId, destId, jsonUrl, config, optionFactory
     if(!opt) return;
 
     this.src.value = '';
-    delete this.src.attributes['optval'];
-
+    
+    try{ delete this.src.attributes.optval; } catch(e) {}
+    
     // exit if option already exists in list
     for (var i = 0; i < this.dest.options.length; i++)
     {
