@@ -24,9 +24,9 @@ class cxWidgetFormJQuerySelectMany extends sfWidgetForm
    */
   protected function configure($options = array(), $attributes = array())
   {
-    sfLoader::loadHelpers('Tag');
-    sfLoader::loadHelpers('Asset');
-    sfLoader::loadHelpers('I18N');
+    sfProjectConfiguration::getActive()->loadHelpers('Tag');
+    sfProjectConfiguration::getActive()->loadHelpers('Asset');
+    sfProjectConfiguration::getActive()->loadHelpers('I18N');
     $this->addRequiredOption('ajax_url');
     $this->addOption('value_formatter', null);
     $this->addOption('config', '{ }');
